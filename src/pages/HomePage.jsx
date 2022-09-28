@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <>
     <Navbar/>
-    <Title/>
+    <Title nombre="Kevin" apellido="Luciano" edad={27} />
     <Footer/>
     </>
   )
