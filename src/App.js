@@ -1,12 +1,12 @@
 import React from 'react'
-import HomePage from './pages/HomePage'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
+import AppRouter from './routes/AppRouter';
 
 const App = () => {
   return (
     <>
-    <HomePage/>
+    <AppRouter/>
     </>
   )
 }

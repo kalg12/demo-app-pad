@@ -44,13 +44,13 @@ const Title = () => {
     }
   ]
 
-/*   const disparaUnAlert = () => {
+  const disparaUnAlert = () => {
     alert("Hola")
-  } */
+  }
 
-/*   useEffect(() => {
+  useEffect(() => {
     disparaUnAlert()
-  }) */
+  })
 
   return (
     <>
