@@ -1,13 +1,13 @@
 import React from 'react'
+import ComponenteCualquiera from '../components/ComponenteCualquiera'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import Title from '../components/Title'
 
 const HomePage = () => {
   return (
     <>
     <Navbar/>
-    <Title/>
+    <ComponenteCualquiera/>
     <Footer/>
     </>
   )

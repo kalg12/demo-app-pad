@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 
 const Title = () => {
   const array = [
@@ -44,23 +44,28 @@ const Title = () => {
     }
   ]
 
-  const disparaUnAlert = () => {
-    alert("Hola")
-  }
-
-  useEffect(() => {
-    disparaUnAlert()
-  })
-
   return (
     <>
-      <ul>
-        {array.map((listado, index) => {
-          return (
-            <li key={index}>{listado.nombre} {listado.apellido} {listado.edad}</li>
-          )
-        })}
-      </ul>
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+          </tr>
+        </thead>
+        <tbody>
+          {array.map((item, index) => {
+            return (
+              <tr key={index}>
+                <td>{item.nombre}</td>
+                <td>{item.apellido}</td>
+                <td>{item.edad}</td>
+              </tr>
+            )
+          })}
+          </tbody>WD
+      </table>
     </>
   )
 }
