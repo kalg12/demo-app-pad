@@ -15,10 +15,7 @@ const Crud = () => {
 
     const getUcampers = async () => {
         const respuesta = await getDocs(collection(db, 'ucampers'))
-        const ucampers = respuesta.docs.map(doc => ({
-                id: doc.id,
-                ...doc.data()
-            }))
+        const ucampers = respuesta.docs.map(doc => ({id: doc.id, ...doc.data()}))
         setUcamper(ucampers)
         console.log(ucampers)
     }
