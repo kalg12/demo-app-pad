@@ -20,6 +20,9 @@ const Navbar = () => {
           <NavLink className={({isActive})=>(isActive ? "nav-link active" : "nav-link")} aria-current="page" to="/ucampers">UCAMP</NavLink>
         </li>
 
+        <li className="nav-item">
+          <NavLink className={({isActive})=>(isActive ? "nav-link active" : "nav-link")} aria-current="page" to="/crud">CRUD</NavLink>
+        </li>
 
       </ul>
       <form className="d-flex" role="search">
