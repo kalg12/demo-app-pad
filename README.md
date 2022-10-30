@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Proyecto React + Firebase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto fue creado con REACT, es una demo de tipo CRUD haciendo uso de Firebase. Este repositorio fue el resultado de una actividad de clase.
+
+A continuación la lista de scripts para echar andar el proyecto.
 
 ## Available Scripts
 
